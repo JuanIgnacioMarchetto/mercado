@@ -1,0 +1,347 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    max-width: 700px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background: grey;
+    position: absolute;
+
+
+}
+
+
+.body2 {
+    background: gray;
+    max-width: 500px;
+}
+
+.ofertamujer img{ max-width: 480px;
+    margin-left: 20px;
+    
+}
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin-left: none;
+    margin-right: 40px;
+}
+
+header {
+    background: url(./84518841-patrón-sin-fisuras-con-electrodomésticos-artículos-para-el-hogar-en-venta-y-fondo-publicitario-de-co.webp);
+    opacity: 0.7;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+    margin-left: 20px;
+
+}
+
+header a {
+    color: olivedrab;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    float: left;
+
+    padding: 0 20px 0 20px;
+}
+
+header #marca {
+    float: left;
+
+}
+
+.boton1 {
+    height: 38px;
+    background: blueviolet;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    align-self: center;
+
+
+    border-radius: 15px 20px;
+
+}
+
+
+header #marca h1 {
+    margin: 0;
+}
+
+header h1 {
+    color: black;
+    text-align: center;
+    align-items: center center;
+    float: rigth;
+    font-size: 30px;
+
+    font-family: fantasy;
+
+
+}
+
+header nav {
+    float: right;
+    margin-top: 50px;
+}
+
+header .highlight,
+header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+
+
+
+#principal {
+    min-height: 300px;
+    text-align: center;
+    color: black;
+    border-bottom: #35424a dotted;
+    margin-bottom: 15px;
+    opacity: 0.8;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#principal h1 {
+    margin-top: 82px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#principal p {
+    font-size: 16px;
+    color: DARKviolet
+}
+
+
+#buscador {
+    padding: 30px;
+    color: white;
+    width: 100%;
+    margin: 40px;
+}
+
+#buscador h1 #buscador h1 {
+    float: left;
+
+}
+
+#buscador form {
+    float: right;
+    margin-top: 30px;
+}
+
+#buscador input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+aside{
+    align-self: center;
+    max: width 600px; margin-left: none ;
+    float: right;
+    margin-right: 80px;
+    margin-left: 90px;
+}
+
+.wrapper2 {
+    display: flex;
+    display: grid;
+    width: 80%;
+    grid-template-columns: 2fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin-left: 30px;
+    margin-right: 50px;
+    ;
+    max-width: 450px;
+    
+    
+}
+.wrapper {
+    display: flex;
+    display: grid;
+    width: 80%;
+    grid-template-columns: 2fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin-left: 30px;
+    margin-right: 50px;
+    ;
+    max-width: 450px;
+    
+    
+}
+
+.wrapper h3 {
+    color: olivedrab;
+}
+
+.wrapper>div {
+    background: #eee;
+    padding: 1em;
+
+}
+
+.wrapper>div:nth-child(odd) {
+    background: #ddd;
+}
+
+.wrapper img {
+    width: 90px;
+    height: auto;
+    align-items: center center;
+    float: none;
+}
+
+
+
+.oculto{
+   display: none;
+}
+
+@media(min-width: 1024px) {
+   
+    .oculto{
+        display: flex;
+    }
+   body {max-width: 1500px;
+margin-left: 5px;}
+    .oculto{
+        display: flex;
+    }
+
+
+    .wrapper {
+        max-width: 1500px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+        margin-left: 80px;
+        margin-right: 70px;
+        width: 1500px;
+        width: 90%;
+    }
+    .wrapper2 {
+        max-width: 1500px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+        margin-left: 80px;
+        margin-right: 70px;
+        width: 1500px;
+        width: 90%;
+    }
+
+   
+
+
+
+    header h1 {
+        color: black;
+        text-align: center;
+        align-items: center center;
+        float: rigth;
+        font-size: 45px;
+
+
+    }
+
+    #principal {
+        min-height: 400px;
+        text-align: center;
+        color: black;
+        border-bottom: #35424a dotted;
+    }
+
+    #principal h1 {
+        margin-top: 100px;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    #principal p {
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    #buscador {
+        padding: 15px;
+        color: white;
+        background: #35424a;
+        align-items: center;
+
+        ;
+    }
+
+    #principal {
+        min-height: 400px;
+        text-align: center;
+        color: black;
+        border-bottom: #35424a dotted;
+        align-items: center;
+    }
+
+    #principal h1 {
+        margin-top: 100px;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    #principal p {
+        font-size: 20px;
+    }
+
+    aside#sidebar {
+        display: block;
+        display: grid;
+
+        background: lightgray;
+        width: 20%;
+        margin-top: 10px;
+        float: right;
+        position: relative;
+    }
+
+    aside#sidebar img {
+        float: right;
+        width: 100px;
+    }
+
+    .ofertamujer {
+        width: 100%;
+    }
+    }
